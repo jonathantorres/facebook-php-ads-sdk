@@ -110,7 +110,7 @@ $fields = array(
 $account = new AdAccount($account_id);
 $account->read($fields);
 ```
-Requesting an high number of fields my cause the response time to visibly increase, you should always request only the fields you really need.
+Requesting an high number of fields may cause the response time to visibly increase, you should always request only the fields you really need.
 
 #### Create Objects
 
